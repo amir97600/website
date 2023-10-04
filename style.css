@@ -6,8 +6,8 @@ body{
 
 #name{
     text-align: center;
-    font-family: 'URW Chancery L';
-    font-size: 12vw;
+    font-family: 'Sofia';
+    font-size: 10vw;
     color: blue;
 
 }
@@ -47,7 +47,7 @@ body{
     position: relative;
     display: inline-block;
     font-size: 5vw;
-    margin-right:10px;
+    margin-right:30px;
     font-family: 'Sofia';
     
 }
