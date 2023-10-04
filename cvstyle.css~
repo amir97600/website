@@ -92,14 +92,14 @@ section {
 /* We need to minimize the use of code, so we will be using roots...this is in the works */
 :root {
   --highlight: #a29400;
-  --header-font: "Times New Roman", Helvetica, Arial, sans-serif;
-  --content-font: "Times New Roman", Helvetica, Arial, sans-serif;
+  --header-font: "Gudea", Helvetica, Arial, sans-serif;
+  --content-font: "Lato", Helvetica, Arial, sans-serif;
 }
 
 html,
 body {
   background: #fff;
-  font-family: Arial , Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-feature-settings: "calt","liga","hist","onum","pnum";
   font-size: 1rem;
   color: #222;
@@ -160,7 +160,7 @@ a {
 #name h1 {
   font-size: 2.5em;
   //font-weight: 700;
-  font-family: Arial , Helvetica, arial, sans-serif;
+  font-family: "Gudea", Helvetica, arial, sans-serif;
   //font-feature-settings: "caps", "sups" 1;
   //margin-bottom: -6px;
 }
@@ -168,7 +168,7 @@ a {
 #name h2 {
   font-size: 2em;
  // margin-left: 2px;
-  font-family: Arial , Helvetica, arial, sans-serif;
+  font-family: "Gudea", Helvetica, arial, sans-serif;
 }
 
 #mainArea {
@@ -257,7 +257,7 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-  font-family: Arial , helvetica, arial, sans-serif;
+  font-family: "Gudea", helvetica, arial, sans-serif;
   font-size: 0.89em;
   color: #cf8a05;
   text-transform: uppercase;
@@ -265,7 +265,7 @@ section:last-child {
 }
 
 .sectionContent h2 {
-  font-family: Arial , helvetica, arial, sans-serif;
+  font-family: "Gudea", helvetica, arial, sans-serif;
   font-size: 1.5em;
   margin-bottom: -2px;
 }
@@ -455,24 +455,29 @@ section:last-child {
 }
 
 .instaFade {
-
+  -webkit-animation-name: reset, fade-in;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-timing-function: ease-in;
 
+  -moz-animation-name: reset, fade-in;
   -moz-animation-duration: 1.5s;
   -moz-animation-timing-function: ease-in;
 
+  animation-name: reset, fade-in;
   animation-duration: 1.5s;
   animation-timing-function: ease-in;
 }
 
 .quickFade {
+  -webkit-animation-name: reset, fade-in;
   -webkit-animation-duration: 2.5s;
   -webkit-animation-timing-function: ease-in;
 
+  -moz-animation-name: reset, fade-in;
   -moz-animation-duration: 2.5s;
   -moz-animation-timing-function: ease-in;
 
+  animation-name: reset, fade-in;
   animation-duration: 2.5s;
   animation-timing-function: ease-in;
 }
