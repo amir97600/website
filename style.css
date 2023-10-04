@@ -1,0 +1,57 @@
+body{
+    background : powderblue; 
+
+
+}
+
+#name{
+    text-align: center;
+    font-family: 'URW Chancery L';
+    font-size: 12vw;
+    color: blue;
+
+}
+
+#cadre{
+    position: relative;
+    left: 150px;
+    width: 750px;
+    
+}
+
+#photo{
+    border:solid;
+    border-color:skyblue;
+}
+
+#infos{
+    position: relative;
+    text-align:left;
+    bottom:200px;
+    left: 300px;
+}
+
+#listI{
+    list-style:none;
+   
+}
+
+#list{
+    position:relative;
+    list-style:none;
+    text-align:center;
+    bottom: 100px;
+}
+
+#list>li{
+    position: relative;
+    display: inline-block;
+    font-size: 5vw;
+    margin-right:10px;
+    font-family: 'URW Chancery L';
+    
+}
+
+#list>li>a{
+    color: blue;
+}
