@@ -1,34 +1,50 @@
 body{
-    background : powderblue; 
-
-
+    background : powderblue;
 }
 
 #name{
     text-align: center;
     font-family: 'Sofia';
-    font-size: 10vw;
+    font-size: 5vw;
     color: blue;
-
 }
 
-#cadre{
+h1{
+    padding:10px;
+    margin: 5px;
+    width: 50%;
     position: relative;
-    left: 150px;
-    width: 750px;
-    
+    top: 50%;
+    left: 25%;
 }
+#img{
+     display : flex;
+     margin-top: 10px;
+     padding:20px;
+     position: relative;
+     top: 50%;
+     left: 25%;
 
-#photo{
-    border:solid;
-    border-color:skyblue;
 }
 
 #infos{
-    position: relative;
-    text-align:left;
-    bottom:200px;
-    left: 300px;
+    margin-top : 10px;
+    font-size: 1.7vw;
+
+}
+
+
+
+#photo{
+    width:17%;
+}
+
+nav{
+     position: relative;
+     top: 50%;
+     left: 2%;
+     padding: 2%;
+     
 }
 
 #listI{
@@ -46,8 +62,9 @@ body{
 #list>li{
     position: relative;
     display: inline-block;
-    font-size: 5vw;
+    font-size: 3vw;
     margin-right:30px;
+    margin-top: 60px;
     font-family: 'Sofia';
     
 }
