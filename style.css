@@ -1,75 +1,128 @@
+*{
+    margin: 0;
+}
+
+.keywords {
+    color: #A5B4FC;
+}
+
 body{
-    background : powderblue;
+    background-color: #ede1e1;
 }
 
-#name{
-    text-align: center;
-    font-family: 'Sofia';
-    font-size: 5vw;
-    color: blue;
+nav,footer{
+    padding: 20px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-h1{
-    padding:10px;
-    margin: 5px;
+section{
+    padding: 80px;
+}
+
+.main-a-propos{
+    width: 900px;
+    margin: auto;
+}
+
+.main-acceuil{
+    display: flex;
+    flex-direction: row;
     width: 50%;
-    position: relative;
-    top: 50%;
-    left: 25%;
-}
-#img{
-     display : flex;
-     margin-top: 10px;
-     padding:20px;
-     position: relative;
-     top: 50%;
-     left: 25%;
-
+    align-items: center;
+    margin:auto;
 }
 
-#infos{
-    margin-top : 10px;
-    font-size: 1.7vw;
-
+.skills{
+    padding: 50px;
 }
 
-
-
-#photo{
-    width:17%;
+p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+    margin: 20px;
+    margin-bottom: 30px;
 }
 
-nav{
-     position: relative;
-     top: 50%;
-     left: 2%;
-     padding: 2%;
-     
-}
-
-#listI{
-    list-style:none;
-   
-}
-
-#list{
-    position:relative;
-    list-style:none;
-    text-align:center;
-    bottom: 100px;
-}
-
-#list>li{
-    position: relative;
-    display: inline-block;
-    font-size: 3vw;
-    margin-right:30px;
-    margin-top: 60px;
-    font-family: 'Sofia';
-    
-}
-
-#list>li>a{
-    color: blue;
+ul, a {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
     text-decoration: none;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5em;
+    color: #A5B4FC;
+    margin: 20px;
+
+}
+
+#h1-propos{
+    text-wrap: nowrap;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+    color: #A5B4FC;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.skill-list{
+    margin-top: 20px;
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+nav > a:hover,
+nav > div > a:hover,
+footer > a:hover,
+footer > div > a:hover,
+.skill-list > li > a:hover{
+    opacity: 0.5;
+}
+
+.logo {
+    width: 4em;
+    height: 4em;
+}
+
+.logo_lang{
+    width: 6em;
+}
+
+#photo {
+    width: 17em;
+    height: 17em;
+}
+
+.skills{
+    border-bottom: 1px solid #8e86b5;
+    border-right: 1px solid #8e86b5;
+}
+
+.cta {
+    background: linear-gradient(#8E86B5,#ACAEED);
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.cta:hover{
+    background: linear-gradient(#696484,#8788BA);
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+    border-radius: 50px;
 }
