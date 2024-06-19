@@ -31,15 +31,51 @@
 		<main>
 			<section class="main-acceuil">
 				<div>
-					<h1 id="name">Amirdine KASSIM - Dev - Bioinformatique</h1>
+					<h1 id="name">Amirdine KASSIM - Développeur</h1>
 					<p>
-						Où <em class="keywords">rigueur</em> s’allie avec <em class="keywords">passion</em>. Je suis
-						en quête pour exercer le métier de développeur avec la passion
-						qui m’anime : coder et trouver des solutions d'optimisation à chaque instant.
+						Où <em class="keywords">rigueur</em>, <em class="keywords">innovation</em> et <em class="keywords">passion</em> se rencontrent. 
+						Je suis déterminé à exceller en tant que développeur, 
+						animé par une volonté constante de coder et d'optimiser les solutions à chaque instant.
 					</p>
-					<a href="" class="cta">VOUS VOULEZ ME CONTACTER ? ÉCRIVEZ-MOI</a>
+					<a href="#acceuil-formulaire" class="cta">VOUS VOULEZ ME CONTACTER ?</a>
 				</div>
-				<img id="photo" src="photoLinkedIn.png" width=25% height=25%/>
+				<img id="photo" src="photoLinkedIn.png" width=100% height=100%/>
+			</section>
+			<section class="main-projet">
+				<h2>Mon dernier projet</h2>
+				<div>
+					<a class="projet projet-acceuil lien-projet" href="Page_d'acceuil.png">
+						<img class="projet projet-acceuil" src="Page_d'acceuil.png"/>
+						<div class="photo-hover">Voir en plein écran</div>
+					</a>
+					<a class="lien-projet" href="Page_de_présentation_des_paillasses.png">
+						<img class="projet" src="Page_de_présentation_des_paillasses.png"/>
+						<div class="photo-hover">Voir en plein écran</div>
+					</a>
+					<a class="lien-projet" href="Page_générale_de_suivi_des_CIQ_dune_paillasse.png">
+						<img class="projet" src="Page_générale_de_suivi_des_CIQ_dune_paillasse.png"/>
+						<div class="photo-hover">Voir en plein écran</div>
+					</a>
+					<a class="lien-projet" href="Tableau_temoin.png">
+						<img class="projet" src="Tableau_temoin.png"/>
+						<div class="photo-hover">Voir en plein écran</div>
+					</a>
+				</div>
+			</section>
+			<section class="acceuil-formulaire" id="#acceuil-formulaire">
+				<form action="" method="get">
+					<div>
+						<label for="nom">Nom : </label>
+						<input type="text" id="nom" required/>
+						<label for="prenom">Prenom : </label>
+						<input type="text" id="prenom"/>
+						<label for="email">E-mail : </label>
+						<input type="email" required/>
+					</div>
+					<label for="message">Que voulez-vous ? : </label>
+					<textarea value="Entrez votre message ici" id="message" required></textarea>
+					<input type="submit" class="submit" value="Envoyer">
+				</form>
 			</section>
 		</main>
 		
