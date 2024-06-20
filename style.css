@@ -54,7 +54,19 @@ section{
     grid-template-columns: 6fr 6fr 6fr;
     grid-template-rows: 0.25fr 0.5fr;
     gap: 15px;
+}
 
+.portfolio-section{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1 2;
+    gap: 15px;
+}
+
+.portfolio-text > h1{
+    text-align: center;
 }
 
 .projet-acceuil{
@@ -220,4 +232,10 @@ form > div {
 .submit{
     width: 20%;
     border-radius: 2px;
+}
+
+.long {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
 }
